@@ -1,0 +1,426 @@
+/**
+ * Support: web-master72@yandex.ru;
+ * Gallery, Services, Menu labels - #fae7d7;
+ * Links, Buttons - #F5D76E;
+/* ---------------------------------------------- /*
+ * General styles
+/* ---------------------------------------------- */
+
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:700);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700,400italic);
+
+body {
+	overflow-x: hidden;
+	font: 400 16px/1.8 'Crimson Text', serif;
+	color: #666;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	color: #F5D76E;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #999;
+}
+
+/* ---------------------------------------------- /*
+ * Transition elsements
+/* ---------------------------------------------- */
+
+.form-control,
+.navbar-custom {
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	   -moz-transition: all 0.4s ease-in-out 0s;
+		-ms-transition: all 0.4s ease-in-out 0s;
+		 -o-transition: all 0.4s ease-in-out 0s;
+			transition: all 0.4s ease-in-out 0s;
+}
+
+a,
+.btn,
+.navbar a {
+	-webkit-transition: all 0.125s ease-in-out 0s;
+	   -moz-transition: all 0.125s ease-in-out 0s;
+		-ms-transition: all 0.125s ease-in-out 0s;
+		 -o-transition: all 0.125s ease-in-out 0s;
+			transition: all 0.125s ease-in-out 0s;
+}
+
+/* ---------------------------------------------- /*
+ * Reset box-shadow
+/* ---------------------------------------------- */
+
+.btn,
+.form-control,
+.form-control:hover,
+.form-control:focus,
+.navbar-custom .dropdown-menu {
+	-webkit-box-shadow: none;
+			box-shadow: none;
+}
+
+/* ---------------------------------------------- /*
+ * Reset border-radius
+/* ---------------------------------------------- */
+
+.btn,
+.label,
+.alert,
+.progress,
+.form-control,
+.modal-content,
+.panel-heading,
+.panel-group .panel,
+.nav-tabs > li > a,
+.nav-pills > li > a {
+	-webkit-border-radius: 0px;
+	   -moz-border-radius: 0px;
+		 -o-border-radius: 0px;
+			border-radius: 0px;
+}
+
+/* ---------------------------------------------- /*
+ * Typography
+/* ---------------------------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+	font: 700 54px/1.2 'Crimson Text', serif;
+	margin: 0 0 20px;
+	color: #000;
+}
+
+h2 {
+	font-size: 48px;
+	margin: 0 0 18px;
+}
+
+h3 {
+	font-size: 40px;
+	margin: 0 0 15px;
+}
+
+h4 {
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+h5 {
+	font-size: 18px;
+	font-weight: 400;
+	margin: 0 0 8px;
+}
+
+h6 {
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0 0 5px;
+}
+
+blockquote {
+	font: 700 50px/1.2 'Dancing Script', cursive;
+	margin: 0 0 20px;
+	padding: 0;
+	border: 0;
+}
+
+blockquote small,
+blockquote footer,
+blockquote .small {
+	display: block;
+	font-size: 40%;
+	line-height: 1.42857143;
+	color: #999;
+}
+
+.intro-title,
+.module-title,
+.callout-text,
+.iconbox-title {
+	font: 700 28px/1.2 'Dancing Script', cursive;
+	margin: 0 0 18px;
+}
+
+.module-title,
+.callout-text {
+	font-size: 50px;
+}
+
+.module-subtitle {
+	font: 400 16px/1.2 'Crimson Text',  serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #a7a9ac;
+	margin: 0;
+}
+
+.intro-title {
+	font-size: 55px;
+}
+
+/* ---------------------------------------------- /*
+ * Alerts style
+/* ---------------------------------------------- */
+
+.alert {
+	border: 0;
+}
+
+.help-block {
+	font-size: 14px;
+	color: #a94442;
+}
+
+.help-block ul {
+	list-style: none;
+	padding: 0 15px;
+	margin: 0;
+}
+
+/* ---------------------------------------------- /*
+ * Progress bars
+/* ---------------------------------------------- */
+
+.progress,
+.progress-bar {
+	-webkit-box-shadow: none;
+			box-shadow: none;
+}
+
+.progress-bar {
+	background-color: #F5D76E;
+}
+
+/* ---------------------------------------------- /*
+ * Tabs
+/* ---------------------------------------------- */
+
+.nav-pills, .nav-tabs {
+	margin-bottom: 20px;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+	background: #F5D76E;
+}
+
+/* ---------------------------------------------- /*
+ * Panels
+/* ---------------------------------------------- */
+
+.panel {
+	border: 0;
+}
+
+.panel-body {
+	background: #f5f5f5;
+}
+
+.panel-group .panel-heading + .panel-collapse > .panel-body {
+	border: 0;
+}
+
+/* ---------------------------------------------- /*
+ * Modal
+/* ---------------------------------------------- */
+
+.modal-content {
+	border: 0;
+}
+
+/* ---------------------------------------------- /*
+ * Labels
+/* ---------------------------------------------- */
+
+.label {
+	font: 400 italic 10px/1.8 'Crimson Text', serif;
+	padding: .2em .6em .2em;
+	letter-spacing: 1px;
+	font-size: 60%;
+}
+
+.label-custom-1 {
+	background: #F5D76E;
+}
+
+.label-custom-2 {
+	background: #000;
+}
+
+/* ---------------------------------------------- /*
+ * Inputs styles
+/* ---------------------------------------------- */
+
+.form-control {
+	border: 0;
+	background: transparent;
+	border-bottom: 1px dotted #DDD;
+	font-size: 16px;
+	padding: 0;
+}
+
+.form-control:focus {
+	border-color: #444444;
+}
+
+.input-lg,
+.form-horizontal .form-group-lg .form-control {
+	height: 38px;
+	font-size: 18px;
+}
+
+.input-sm,
+.form-horizontal .form-group-sm .form-control {
+	font-size: 11px;
+	height: 30px;
+}
+
+textarea.form-control {
+	padding: 15px 0;
+}
+
+.form-control-black {
+	border: 1px solid #DDD;
+}
+
+.form-control-black:focus {
+	border-color: #444444;
+}
+
+/* ---------------------------------------------- /*
+ * Custom button style
+/* ---------------------------------------------- */
+
+.btn {
+	letter-spacing: 1px;
+	font-size: 16px;
+	padding: 8px 26px;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active {
+	outline: inherit !important;
+}
+
+.btn-custom-1 {
+	background: transparent;
+	border: 1px solid #000;
+	color: #000;
+}
+
+.btn-custom-1:hover,
+.btn-custom-1:focus,
+.btn-custom-1:active,
+.btn-custom-1.active {
+	background: #000;
+	border-color: #000;
+	color: #fff;
+}
+
+.btn-custom-2 {
+	background: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.btn-custom-2:hover,
+.btn-custom-2:focus,
+.btn-custom-2:active,
+.btn-custom-2.active {
+	background: #fff;
+	border-color: #fff;
+	color: #000;
+}
+
+.btn-custom-3 {
+	background: transparent;
+	border: 1px solid #000;
+	color: #000
+}
+
+.btn-custom-3:hover,
+.btn-custom-3:focus,
+.btn-custom-3:active,
+.btn-custom-3.active {
+	background: #F5D76E;
+	border-color: #F5D76E;
+	color: #FFF;
+}
+
+.btn-custom-4 {
+	background: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.btn-custom-4:hover,
+.btn-custom-4:focus,
+.btn-custom-4:active,
+.btn-custom-4.active {
+	background: #F5D76E;
+	border-color: #F5D76E;
+	color: #fff;
+}
+
+.btn-custom-5 {
+	background: #000;
+	border: 1px solid #000;
+	color: #fff;
+}
+
+.btn-custom-5:hover,
+.btn-custom-5:focus,
+.btn-custom-5:active,
+.btn-custom-5.active {
+	background: #fff;
+	border-color: #fff;
+	color: #000;
+}
+
+/* Button size */
+
+.btn-lg,
+.btn-group-lg > .btn {
+	padding: 12px 30px;
+	font-size: 18px;
+}
+
+.btn-sm,
+.btn-group-sm > .btn {
+	padding: 6px 25px;
+	font-size: 11px;
+}
+
+.btn-xs,
+.btn-group-xs > .btn {
+	padding: 5px 25px;
+	font-size: 10px;
+}
+
+.btn .icon-before {
+	margin-right: 6px;
+}
+
+.btn .icon-after {
+	margin-left: 6px;
+}
+
+.btn .icon-after,
+.btn .icon-before {
+	font-size: 12px;
+}
+
+.btn-list .btn {
+	margin-bottom: 5px;
+}
+
+/* ---------------------------------------------- /*
+ * Main
